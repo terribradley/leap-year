@@ -13,9 +13,9 @@
     <form class="form-inline year-form">
       <div class="form-group">
         <label for="year-input">Enter a year</label>
-        <input type="text" class="form-control" id="year-input">
+        <input type="number" min=0 required="true" class="form-control" id="year-input">
       </div>
-      <button type="submit" class="btn btn-default">Is it a leapyear?</button>
+      <button type="submit" class="btn btn-default" id="submit">Is it a leapyear?</button>
     </form>
     <div id="result">
     </div>
